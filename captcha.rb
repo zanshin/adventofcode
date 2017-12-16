@@ -2,12 +2,7 @@
 
 require 'pp'
 
-# Get numbers, save in array
-#puts "enter captcha digits"
-#input = $stdin.read
-
 input = File.read("data")
-pp input
 captcha = input.chomp.split(//)
 pp captcha
 
